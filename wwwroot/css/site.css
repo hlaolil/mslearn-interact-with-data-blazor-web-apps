@@ -9,6 +9,8 @@ body {
     flex-direction: column;
     font-family: 'quicksand';
     overflow-y: hidden;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 
 form {

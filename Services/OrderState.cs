@@ -1,3 +1,5 @@
+
+
 namespace BlazingPizza.Services;
 
 public class OrderState
@@ -37,5 +39,10 @@ public class OrderState
     public void RemoveConfiguredPizza(Pizza pizza)
     {
         Order.Pizzas.Remove(pizza);
+    }
+
+    public void ResetOrder()
+    {
+        Order = new Order();
     }
 }
